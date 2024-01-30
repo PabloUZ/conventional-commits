@@ -1,0 +1,16 @@
+{
+  "name": "conventional-commits",
+  "version": "1.0.0",
+  "description": "Create commits with standard message",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@PabloUZ",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.13",
+    "readline": "^1.3.0"
+  }
+}
