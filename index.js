@@ -1,7 +1,7 @@
 import inquirer from "inquirer";
 import { exec } from "child_process"
-import { yesno, type } from "./menus.js"
-import { userInput } from "./input.js";
+import { yesno, type } from "./src/menus.js"
+import { userInput } from "./src/input.js";
 
 const typePrompt = {
     type: 'list',
