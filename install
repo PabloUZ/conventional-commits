@@ -1,0 +1,6 @@
+mkdir commits
+cp -r src node_modules index.js package.json package-lock.json commit commits/
+
+sudo mv commits /opt
+
+sudo ln -s /opt/commits/commit /bin || sudo ln -s /opt/commits/commit /usr/bin
